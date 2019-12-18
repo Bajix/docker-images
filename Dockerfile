@@ -1,4 +1,4 @@
-FROM alpine:3.9.2
+FROM alpine:3.10
 
 RUN set -x && apk add --no-cache curl python3 bash gettext && \
     pip3 install awscli && \
